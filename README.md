@@ -1,24 +1,23 @@
-# Ada Love
-## Getting Started
+# AdaLove
 
-First, run the development server:
+Projeto de estudo em Next.js com o App Router, com uma página inicial e uma página "sobre".
+
+## Stack
+
+- Next.js (App Router)
+- React
+- JavaScript
+- ESLint
+
+## Como rodar
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Acesse [http://localhost:3000](http://localhost:3000). As páginas ficam em `src/app/`: `page.js` (início) e `about/page.js` (sobre).
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Status
 
-## Create New Route
-
-You can create a new route by creating a new page and inside it creating a file called `page.js`. For example: `about/page.js`
-
-![about route](src/utils/image.png)
+Projeto inicial, em estudo. Ainda não há funcionalidades além das páginas de exemplo.
